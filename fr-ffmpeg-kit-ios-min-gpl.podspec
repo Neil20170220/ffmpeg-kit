@@ -10,18 +10,18 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.libraries        = ['z', 'bz2', 'c++', 'iconv']
-  s.source           = { :http => 'https://github.com/Neil20170220/ffmpeg-kit/releases/download/v6.0/ffmpeg-kit-min-gpl-6.0-ios-xcframework.zip' }
+  s.source           = { :http => 'https://github.com/Neil20170220/ffmpeg-kit/releases/download/v6.0/bundle-apple-xcframework-ios.zip' }
 
   s.ios.frameworks   = ['AudioToolbox', 'AVFoundation', 'CoreMedia', 'VideoToolbox']
   
   s.vendored_frameworks = [
-    'ffmpeg-kit-min-gpl-6.0-ios-xcframework/ffmpegkit.xcframework',
-    'ffmpeg-kit-min-gpl-6.0-ios-xcframework/libavcodec.xcframework',
-    'ffmpeg-kit-min-gpl-6.0-ios-xcframework/libavdevice.xcframework',
-    'ffmpeg-kit-min-gpl-6.0-ios-xcframework/libavfilter.xcframework',
-    'ffmpeg-kit-min-gpl-6.0-ios-xcframework/libavformat.xcframework',
-    'ffmpeg-kit-min-gpl-6.0-ios-xcframework/libavutil.xcframework',
-    'ffmpeg-kit-min-gpl-6.0-ios-xcframework/libswresample.xcframework',
-    'ffmpeg-kit-min-gpl-6.0-ios-xcframework/libswscale.xcframework'
+    'bundle-apple-xcframework-ios/ffmpegkit.xcframework',
+    'bundle-apple-xcframework-ios/libavcodec.xcframework',
+    'bundle-apple-xcframework-ios/libavdevice.xcframework',
+    'bundle-apple-xcframework-ios/libavfilter.xcframework',
+    'bundle-apple-xcframework-ios/libavformat.xcframework',
+    'bundle-apple-xcframework-ios/libavutil.xcframework',
+    'bundle-apple-xcframework-ios/libswresample.xcframework',
+    'bundle-apple-xcframework-ios/libswscale.xcframework'
   ]
 end
