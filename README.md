@@ -56,6 +56,13 @@ Use `android.sh`, `ios.sh`, `linux.sh`, `macos.sh` and `tvos.sh` to build `FFmpe
 All scripts support additional options to enable optional libraries and disable platform architectures. See
 [Building](https://github.com/arthenica/ffmpeg-kit/wiki/Building) wiki page for the details.
 
+#### 1. iOS
+```
+brew install automake
+brew install nasm
+./ios.sh --disable-armv7 --disable-armv7s --xcframework --no-bitcode --enable-ios-audiotoolbox --enable-ios-avfoundation --enable-ios-bzip2 --enable-ios-videotoolbox --enable-ios-zlib --enable-ios-libiconv --enable-gpl --enable-libvidstab --enable-x264 --enable-x265 --enable-xvidcore
+```
+
 ### 8. FFmpegKit Library
 
 `FFmpegKit` is a wrapper library that allows you to easily run `FFmpeg`/`FFprobe` commands in applications. It 
