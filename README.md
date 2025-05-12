@@ -60,7 +60,7 @@ All scripts support additional options to enable optional libraries and disable 
 ```
 brew install automake
 brew install nasm
-./ios.sh --disable-armv7 --disable-armv7s --xcframework --no-bitcode --enable-ios-audiotoolbox --enable-ios-avfoundation --enable-ios-bzip2 --enable-ios-videotoolbox --enable-ios-zlib --enable-ios-libiconv --enable-gpl --enable-libvidstab --enable-x264 --enable-x265 --enable-xvidcore
+./ios.sh --disable-armv7 --disable-armv7s --xcframework --no-bitcode --enable-ios-audiotoolbox --enable-ios-avfoundation --enable-ios-bzip2 --enable-ios-videotoolbox --enable-ios-zlib --enable-ios-libiconv --enable-gpl --enable-libvidstab --enable-x264 --enable-x265 --enable-xvidcore --enable-lame --enable-shine --enable-soxr
 ```
 
 ### 8. FFmpegKit Library
