@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'fr-ffmpeg-kit-ios-min-gpl'
-  s.version          = '6.0'
+  s.version          = '6.0.1'
   s.summary          = 'FFmpeg Kit iOS Min GPL Shared Framework'
   s.description      = 'Includes FFmpeg with libvid.stab, x264, x265 and xvidcore libraries enabled.'
   s.homepage         = 'https://github.com/arthenica/ffmpeg-kit'
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.libraries        = ['z', 'bz2', 'c++', 'iconv']
-  s.source           = { :http => 'https://github.com/Neil20170220/ffmpeg-kit/releases/download/v6.0/bundle-apple-xcframework-ios.zip' }
+  s.source           = { :http => 'https://github.com/Neil20170220/ffmpeg-kit/releases/download/v6.0.1/bundle-apple-xcframework-ios.zip' }
 
   s.ios.frameworks   = ['AudioToolbox', 'AVFoundation', 'CoreMedia', 'VideoToolbox']
   
